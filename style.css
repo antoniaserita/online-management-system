@@ -1,0 +1,184 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(73, 80, 73);
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.header-buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.form {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  width: 300px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: none;
+  position: relative; 
+}
+
+#formsContainer{
+  display: flex;
+  justify-content: space-evenly;
+}
+#loginUsername,#loginPassword,#registerUsername,#registerPassword{
+  width: 240px;
+  height: 4px;
+}
+
+#loginForm, #registerForm {
+  border: 1px solid #ccc;
+  background-color: #a5aaf8;
+  padding: 20px;
+  border-radius: 10px;
+  width: 270px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input,
+button {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.hbutton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-size: 16px;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.hbutton:focus {
+  outline: none;
+}
+
+.cancelButton {
+  color: rgb(73, 80, 73);
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  float: right;
+  
+}
+
+.cart-button {
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.cart {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+#courseList {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.course {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+}
+
+.course img {
+  max-width: 200px;
+  height: 140px;
+  border-radius: 6px;
+}
+
+.course h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+.course p {
+  color: #666;
+  margin-top: 5px;
+}
+
+.add-to-cart,
+.remove-from-cart {
+  background-color: #a5aaf8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 6px 12px;
+  width: 80px;
+}
+
+.add-to-cart {
+  width: 120px;
+}
+
+.add-to-cart:hover, .remove-from-cart:hover {
+  background-color: rgb(201, 204, 245);
+}
+
+.contact {
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: rgb(73, 80, 73);
+  color: #fff;
+}
+
+h4 {
+  color: #a5aaf8;
+}
+
+.detailss {
+  background-color: rgb(73, 80, 73);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+}
+
+.companyinfo, .Legal, .Resources, .intouch{
+  margin: 20px;
+}
+
+.icons {
+  margin-right: 20px;
+}
+
+.call {
+  width: 18px;
+  height: 18px;
+}
+
+.made {
+  margin-left: 80px;
+}
+
+.platforms {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}

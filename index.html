@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="https://cdn.pixabay.com/photo/2017/01/16/10/51/diploma-1983725_1280.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Umojacademy</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Umojacademy</h1>
+        <div class="header-buttons">
+            <button onclick="toggleForm('loginForm')" class="hbutton">Login</button>
+            <button onclick="toggleForm('registerForm')" class="hbutton">Register</button>
+        </div>
+    </header>
+
+    <div id="formsContainer">
+        <form id="loginForm" class="form">
+            <button class="cancelButton" onclick="hideForm('loginForm')"><ion-icon name="close-outline"></ion-icon></button>
+            <h2>Login</h2>
+            <input type="text" id="loginUsername" placeholder="Username">
+            <input type="password" id="loginPassword" placeholder="Password">
+            <button onclick="loginUser()">Login</button>
+        </form>
+
+        <form id="registerForm" class="form">
+            <button class="cancelButton" onclick="hideForm('registerForm')"><ion-icon name="close-outline"></ion-icon></button>
+            <h2>Register</h2>
+            <input type="text" id="registerUsername" placeholder="Username">
+            <input type="password" id="registerPassword" placeholder="Password">
+            <button onclick="registerUser()">Register</button>
+        </form>
+    </div>
+
+    <div id="courseList">
+    </div>
+
+    
+    <div id="cart-section">
+        <h2>Cart <ion-icon name="cart-outline"></ion-icon></h2>
+        <ul class="cart-items">
+        </ul>
+    </div>
+    
+      
+    <div class="contact">
+        <div class="agency">
+            <h1 class="join">Join in on<br>something big</h1>
+        </div>
+        <div>
+            <h1>10M<br>Learners</h1>
+        </div>
+        <div>
+            <h1>90+<br>Countries</h1>
+        </div>
+        <div>
+            <h1>8M<br>Code Submits</h1>
+        </div>
+    </div>
+
+    <div class="detailss">
+        <div class="companyinfo">
+            <h4>Company Info</h4>
+            <p>About Us</p>
+            <p>Carrier</p>
+            <p>We are hiring</p>
+            <p>Blog</p>
+        </div>
+        <div class="Legal">
+            <h4>Legal</h4>
+            <p>About Us</p>
+            <p>Carrier</p>
+            <p>We are hiring</p>
+            <p>Blog</p>
+        </div>
+
+        <div class="Resources">
+            <h4>Resources</h4>
+            <p>IOS & Android</p>
+            <p>Watch a Demo</p>
+            <p>Customers</p>
+            <p>API</p>
+        </div>
+        <div class="intouch">
+            <h4>Get In Touch</h4>
+            <p><ion-icon name="call-outline"></ion-icon>(480) 555-0103</p>
+            <p><ion-icon name="location-outline"></ion-icon>Gakere Ave.</p>
+            <p><ion-icon name="mail-outline"></ion-icon>umoja1cademy@gmail.com</p>
+        </div>
+    </div>
+
+    <div class="platforms">
+        <div class="made">
+            <p>Copyright 2023 Umojacademy</p>
+        </div>
+        <div class="icons">
+            <ion-icon name="logo-facebook"></ion-icon>
+            <ion-icon name="logo-instagram"></ion-icon>
+            <ion-icon name="logo-twitter"></ion-icon>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,75 @@
+{
+  "courses": [
+    {
+      "id": 1,
+      "image": "https://cdn.pixabay.com/photo/2019/09/25/17/01/masks-4504122_640.png",
+      "title": "Playwright JS Automation",
+      "author": "Rahul Shetty",
+      "price": 49.99
+    },
+    {
+      "id": 2,
+      "image": "https://cdn.pixabay.com/photo/2019/06/17/19/48/source-4280758_640.jpg",
+      "title": "Cypress with Cucumber",
+      "author": "Giani Brunno",
+      "price": 11.99
+    },
+    {
+      "id": 3,
+      "image": "https://cdn.pixabay.com/photo/2020/04/25/12/14/circle-5090539_640.jpg",
+      "title": "Cypress V12 + Docker",
+      "author": "Vignesh S",
+      "price": 11.99
+    },
+    {
+      "id": 4,
+      "image": "https://cdn.pixabay.com/photo/2017/02/20/14/18/technology-2082642_640.jpg",
+      "title": "Modern Automation Testing",
+      "author": "Rahul Shetty",
+      "price": 11.99
+    },
+    {
+      "id": 5,
+      "image": "https://cdn.pixabay.com/photo/2016/07/23/10/48/binary-1536646_640.jpg",
+      "title": "The complete Cypress v12",
+      "author": "Gianni Brunno",
+      "price": 14.99
+    },
+    {
+      "id": 6,
+      "image": "https://cdn.pixabay.com/photo/2015/05/11/13/28/software-762486_640.jpg",
+      "title": "Automated Software Testing with Playwright",
+      "author": "Knniel Autis",
+      "price": 11.99
+    },
+    {
+      "id": 7,
+      "image": "https://cdn.pixabay.com/photo/2020/06/10/09/31/mockup-5281991_640.jpg",
+      "title": "JQuery",
+      "author": "Karthik KK",
+      "price": 34.99
+    },
+    {
+      "id": 8,
+      "image": "https://cdn.pixabay.com/photo/2015/12/11/09/30/mobile-phone-1087845_640.jpg",
+      "title": "Playwright Python and Pytest for Web Automation Testing",
+      "author": "Rahul Mula",
+      "price": 11.99
+    },
+    {
+      "id": 9,
+      "image": "https://cdn.pixabay.com/photo/2019/01/31/20/52/web-3967926_640.jpg",
+      "title": "Introduction to Web Development",
+      "author": "Simon KK",
+      "price": 10.99
+    },
+    {
+      "id": 10,
+      "image": "https://cdn.pixabay.com/photo/2016/10/09/08/32/digital-marketing-1725340_640.jpg",
+      "title": "End to End Test Automation with Playwright",
+      "author": "Karthik KK",
+      "price": 29.99
+    }
+  ],
+  "cart": []
+}
